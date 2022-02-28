@@ -1,10 +1,13 @@
 import random
 import string
+import colorama
 from colorama import Fore, Back, Style
 
 EASY_DIFF_LIVES = 20
 MEDIUM_DIFF_LIVES = 10
 HARD_DIFF_LIVES = 5
+
+colorama.init(autoreset=True)
 
 
 # Function to check letter
@@ -16,7 +19,7 @@ def check_letter(turns, letter, lives):
         print("Hot")
         return lives - 1
     else:
-        print(f"You hit the spot! The letter was {letter}.")
+        print(Fore.GREEN + Back.LIGHTWHITE_EX + Style.BRIGHT + f"You hit the spot! The letter was {letter}.")
 
 
 # Function to set difficulty of game.
