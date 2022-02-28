@@ -5,6 +5,17 @@ EASY_DIFF_LIVES = 20
 MEDIUM_DIFF_LIVES = 10
 HARD_DIFF_LIVES = 5
 
+# Function to set difficulty of game.
+def game_diff():
+    difficulty = input("Pick a difficulty for the game. Type 'easy', 'medium', or 'hard': ")
+
+    if difficulty == "easy":
+        return EASY_DIFF_LIVES
+    elif difficulty == "medium":
+        return MEDIUM_DIFF_LIVES
+    else:
+        return HARD_DIFF_LIVES
+
 def main():
     # Introduction of game
     # Choose random letter (a-z)
