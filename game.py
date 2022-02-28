@@ -38,7 +38,6 @@ def main():
 
     print("In order to win, guess the letter I'm thinking between a and z.")
 
-    # letter = chr(random.randint(ord('a'), ord('z')))
     lower_letter = string.ascii_lowercase
     letter = random.choice(lower_letter)
 
