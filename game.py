@@ -42,3 +42,16 @@ def main():
     print(f"Answer is {letter}")
 
     lives = game_diff()
+
+    # Loop game to keep guessing letter.
+    turns = 0
+    while turns != letter:
+        print(f"You have {lives} lives left. Guess wisely!")
+
+        # Take input from user to guess letter
+        turns = str(input("Make a guess (type a letter): "))
+
+        # Calculate lives left for user
+        lives = check_letter(turns, letter, lives)
+        if lives == 0:
+            return
