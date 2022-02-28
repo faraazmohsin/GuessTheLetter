@@ -5,6 +5,7 @@ EASY_DIFF_LIVES = 20
 MEDIUM_DIFF_LIVES = 10
 HARD_DIFF_LIVES = 5
 
+
 # Function to check letter
 def check_letter(turns, letter, lives):
     if turns > letter:
@@ -16,6 +17,7 @@ def check_letter(turns, letter, lives):
     else:
         print(f"You hit the spot! The letter was {letter}.")
 
+
 # Function to set difficulty of game.
 def game_diff():
     difficulty = input("Pick a difficulty for the game. Type 'easy', 'medium', or 'hard': ")
@@ -26,6 +28,7 @@ def game_diff():
         return MEDIUM_DIFF_LIVES
     else:
         return HARD_DIFF_LIVES
+
 
 def main():
     # Introduction of game
@@ -55,5 +58,6 @@ def main():
         lives = check_letter(turns, letter, lives)
         if lives == 0:
             return
+
 
 main()
