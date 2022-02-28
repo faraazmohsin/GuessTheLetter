@@ -1,5 +1,6 @@
 import random
 import string
+from colorama import Fore, Back, Style
 
 EASY_DIFF_LIVES = 20
 MEDIUM_DIFF_LIVES = 10

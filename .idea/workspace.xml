@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c350c471-655f-4c71-a90c-db5b067d6894" name="Changes" comment="set global variables for lives" />
+    <list default="true" id="c350c471-655f-4c71-a90c-db5b067d6894" name="Changes" comment="remove previous comment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +24,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/game.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="game" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -57,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646024366888</updated>
-      <workItem from="1646024372035" duration="687000" />
+      <workItem from="1646024372035" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="set global variables for lives">
       <created>1646024514806</created>
@@ -66,7 +70,56 @@
       <option name="project" value="LOCAL" />
       <updated>1646024514806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="game introduction and choose random letter">
+      <created>1646025097674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025097674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set function for game difficulty">
+      <created>1646025134017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025134017</updated>
+    </task>
+    <task id="LOCAL-00004" summary="set function to check letter">
+      <created>1646025165278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025165278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="function to loop game">
+      <created>1646025205839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025205839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="global variable for main function">
+      <created>1646025236615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025236615</updated>
+    </task>
+    <task id="LOCAL-00007" summary="reformat file">
+      <created>1646025255917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025255917</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove previous comment">
+      <created>1646025287453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646025287453</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,9 +138,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set global variables for lives" />
-    <option name="LAST_COMMIT_MESSAGE" value="set global variables for lives" />
+    <MESSAGE value="game introduction and choose random letter" />
+    <MESSAGE value="set function for game difficulty" />
+    <MESSAGE value="set function to check letter" />
+    <MESSAGE value="function to loop game" />
+    <MESSAGE value="global variable for main function" />
+    <MESSAGE value="reformat file" />
+    <MESSAGE value="remove previous comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove previous comment" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GuessTheLetter$game.coverage" NAME="game Coverage Results" MODIFIED="1646024409824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GuessTheLetter$game.coverage" NAME="game Coverage Results" MODIFIED="1646025311511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
