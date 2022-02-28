@@ -55,3 +55,5 @@ def main():
         lives = check_letter(turns, letter, lives)
         if lives == 0:
             return
+
+main()
