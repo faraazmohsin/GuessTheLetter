@@ -45,8 +45,6 @@ def main():
     lower_letter = string.ascii_lowercase
     letter = random.choice(lower_letter)
 
-    print(f"Answer is {letter}")
-
     lives = game_diff()
 
     # Loop game to keep guessing letter.
